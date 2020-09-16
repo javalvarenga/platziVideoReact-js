@@ -7,8 +7,8 @@
 
 }
     .register__container {
-      background-color: rgba(255,255,255,0.1);
-      border: 2px solid white;
+      background-color: rgba(121, 60, 136, 0.459);
+      border: 2px solid #ffff;
       border-radius: 40px;
       box-shadow: 014px28px rgba(0,0,0,0.25), 010px10px rgba(0,0,0,0.22);
       color: white;
@@ -40,4 +40,6 @@
       .register__container--form input{
         width: 220px;
       }
-    
+    button{
+      width: 220px;
+    }

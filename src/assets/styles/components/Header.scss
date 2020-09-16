@@ -1,7 +1,9 @@
-
+@import "../Media.scss";
+@import "../Vars.scss";
 .header {
     align-items: center;
-    background: #8f57fd;
+    font-family: $theme-font;
+    background:$main-color;
     color: white;
     display: flex;
     height: 100px;

@@ -72,8 +72,8 @@ const Login = props => {
         </section>
 
         <p className="login__container--register">
-          No tienes niguna cuenta
-          <Link to="/register">Registrate</Link>
+          No tienes niguna cuenta 
+          <Link to="/register">  Registrate</Link>
         </p>
       </section>
     </section>

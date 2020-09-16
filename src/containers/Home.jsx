@@ -3,7 +3,6 @@ import Search from "../components/Search";
 import Categories from "../components/Categories";
 import Carousel from "../components/Carousel";
 import Carouselitem from "../components/Carouselitem";
-import useInitialState from "../hooks/useInitialState";
 import { connect } from "react-redux";
 import "../assets/styles/App.scss";
 

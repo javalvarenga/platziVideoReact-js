@@ -1,10 +1,14 @@
 video {
     object-fit: cover;
-    width: 40vw;
-    height: 60vh;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
   
-  video:hover.Player-back {
+  video:hover .Player-back {
     display: block;
   }
   
@@ -15,10 +19,10 @@ video {
     font-size: 12px;
   }
   
-  .Player-backbutton {
+  .Player-back button {
     text-decoration: none;
     color: white;
-    background: rgba(0, 0, 0, .3);
+    background: rgba(0, 255, 255, 0.664);
     padding: 5px;
     border-radius: 5px;
     border: 0;

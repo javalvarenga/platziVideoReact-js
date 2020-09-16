@@ -9,13 +9,11 @@ body {
 
 
 .login {
-  background: -webkit-gradient(linear, left top, left bottom, from(#000f2e), to(#230657));
+  background: -webkit-gradient(linear, left top, left bottom, from(#969dac), to(#2abcd6ab));
   background:$main-color;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -25,32 +23,31 @@ body {
   -ms-flex-direction: column;
   flex-direction: column;
   padding: 0px,30px;
-  min-height: calc(100vh -200px);
+  min-height: calc(70vh -200px);
 }
 
 .login__container {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: rgba(190, 86, 238, 0.075);
-  border: 2px solid #353030;
+  background-color: rgba(121, 60, 136, 0.459);
+  border: 2px solid #ffff;
   border-radius: 40px;
   color: white;
-  padding: 30px 38px 40px;
-  min-width: 360px;
-  min-height: 95vh;
+  padding: 30px 30px 40px;
+  min-width: 290px;
+  height: 80vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-content: space-between;
+  align-content: center;
 }
 
 .login__container--form {
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .login__container--form label {
@@ -78,13 +75,13 @@ body {
 }
 
 .login__container--social-media > div {
-  padding-top: 20px;
+  padding-top: 10px;
   display: flex;
   justify-content: center;
-  align-content: space-between;
+  align-content: space-around;
   align-items: center;
   font-size: 14px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .login__container--social-media > div > img {

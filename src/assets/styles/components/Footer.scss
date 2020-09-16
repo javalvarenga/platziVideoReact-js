@@ -1,7 +1,9 @@
-
+@import "../Media.scss";
+@import "../Vars.scss";
 .footer {
     align-items: center;
-    background-color: #8f57fd;
+    font-family: $theme-font;
+    background:$main-color;
     display: flex;
     height: 100px;
     width: 100%;
